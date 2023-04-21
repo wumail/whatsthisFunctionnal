@@ -1,5 +1,5 @@
 ---
-name: Bug report
+name: Bug report in chinese
 about: 框架Bug反馈
 title: '[Bug report]'
 labels: ''

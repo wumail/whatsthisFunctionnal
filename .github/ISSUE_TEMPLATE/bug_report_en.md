@@ -1,5 +1,5 @@
 ---
-name: Bug report
+name: Bug report in english
 about: Feedback on framework bugs
 title: '[Bug report]'
 labels: ''

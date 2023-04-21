@@ -1,9 +1,9 @@
 ---
-name: 'Feature request'
-about: '新需求'
-title: '[Feature Request]'
-labels: ''
-assignees: ''
+name: Feature request in chinese
+about: 新需求
+title: "[Feature Request]"
+labels: ""
+assignees: ""
 ---
 
 ## 问题背景
