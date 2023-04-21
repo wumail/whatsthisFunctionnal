@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>whatever</title>
+  </head>
+  <body>
+    <canvas id="canvas" width="1000" height="1000"></canvas>
+    <script type="module" src="./whatever.js"></script>
+    <script type="module">
+      import {
+        initialize,
+        createEdge,
+        createNode,
+        draw,
+        setProperty,
+      } from "./whatever.js";
+      import anchors from "./shapes/anchors.js";
+      console.log("123");
+      initialize("#canvas");
+      const node1 = createNode(
+        "ellipse",
+        80, // longAxis
+        40, // shortAxis
+        [200, 200] // center
+      );
+
+      createNode(
+        "rectangle",
+        80, // width
+        40, // height
+        [400, 400] // center
+      );
+
+      createEdge("straight", "node-0#3", "node-1#1");
+      createEdge("straight", "node-1#4", "node-0#2");
+      setProperty(node1, "anchors", anchors());
+      node1.anchors.events.mouseover();
+      draw();
+    </script>
+  </body>
+</html>
