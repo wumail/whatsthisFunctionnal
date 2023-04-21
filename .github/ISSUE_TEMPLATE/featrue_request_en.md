@@ -2,8 +2,9 @@
 name: Feature request in english
 about: Suggest an idea for this project
 title: "[Feature Request]"
-labels: ""
-assignees: ""
+labels: ''
+assignees: ''
+
 ---
 
 ## Background

@@ -1,9 +1,10 @@
 ---
 name: Bug report in english
 about: Feedback on framework bugs
-title: '[Bug report]'
+title: "[Bug report]"
 labels: ''
 assignees: ''
+
 ---
 
 ## Description of problem

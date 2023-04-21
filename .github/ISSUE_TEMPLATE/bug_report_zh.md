@@ -2,8 +2,9 @@
 name: Bug report in chinese
 about: 框架Bug反馈
 title: "[Bug report]"
-labels: ""
-assignees: ""
+labels: ''
+assignees: ''
+
 ---
 
 ## 问题描述
