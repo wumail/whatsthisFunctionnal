@@ -13,7 +13,6 @@ body:
       label: 发生了什么？
       description: 描述一下发生了什么，期望如何？表现如何？（提供文字描述、截图、可复现示例）
       placeholder: 问题描述
-      value: ""
     validations:
       required: true
   - type: input
