@@ -19,21 +19,21 @@ body:
   - type: input
     id: core_version
     attributes:
-      label: @logicflow/core版本
+      label: logicflow/core版本
       placeholder: ex. 1.2.16
     validations:
       required: true
   - type: input
     id: extension_version
     attributes:
-      label: @logicflow/extension版本
+      label: logicflow/extension版本
       placeholder: ex. 1.2.17
     validations:
       required: true
   - type: input
     id: engine_version
     attributes:
-      label: @logicflow/engine版本
+      label: logicflow/engine版本
       placeholder: ex. 0.0.9
     validations:
       required: false
