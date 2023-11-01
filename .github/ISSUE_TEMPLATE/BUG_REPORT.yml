@@ -1,49 +1,16 @@
-name: Bug Report
-description: 提交bug report
-title: "[Bug Report]: "
-labels: ["bug"]
+name: Feature ZH
+description: 新的需求和提议
+title: "[Feature]: "
+labels: ["new feature"]
 body:
   - type: markdown
     attributes:
       value: |
-        感谢你的Bug🐛提交
+        感谢你的Feature提交
   - type: textarea
-    id: what-happened
+    id: background
     attributes:
-      label: 发生了什么？
-      description: 描述一下发生了什么，期望如何？表现如何？（提供文字描述、截图、可复现示例）
-      placeholder: 问题描述
+      label: 背景&目的
+      description: 描述需求和提议的背景和目的
     validations:
       required: true
-  - type: input
-    id: core_version
-    attributes:
-      label: logicflow/core版本
-      placeholder: ex. 1.2.16
-    validations:
-      required: true
-  - type: input
-    id: extension_version
-    attributes:
-      label: logicflow/extension版本
-      placeholder: ex. 1.2.17
-    validations:
-      required: true
-  - type: input
-    id: engine_version
-    attributes:
-      label: logicflow/engine版本
-      placeholder: ex. 0.0.9
-    validations:
-      required: false
-  - type: dropdown
-    id: browsers
-    attributes:
-      label: 浏览器&环境
-      multiple: true
-      options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
-        - NodeJS
