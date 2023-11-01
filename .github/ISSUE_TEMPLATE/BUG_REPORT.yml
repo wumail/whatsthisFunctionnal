@@ -1,66 +1,50 @@
 name: Bug Report
-description: File a bug report
-title: "[Bug ]: "
+description: 提交bug report
+title: "[Bug Report]: "
 labels: ["bug"]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
+        感谢你的Bug🐛提交
   - type: textarea
     id: what-happened
     attributes:
-      label: What happened?
-      description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
-      value: "A bug happened!"
+      label: 发生了什么？
+      description: 描述一下发生了什么，期望如何？表现如何？（提供文字描述、截图、可复现示例）
+      placeholder: 问题描述
+      value: ""
     validations:
       required: true
   - type: input
     id: core_version
     attributes:
-      label: Core Version
-      description: What version of @logicflow/core are you running?
+      label: @logicflow/core版本
       placeholder: ex. 1.2.16
     validations:
       required: true
   - type: input
     id: extension_version
     attributes:
-      label: Extension Version
-      description: What version of @logicflow/extension are you running?
+      label: @logicflow/extension版本
       placeholder: ex. 1.2.17
     validations:
       required: true
   - type: input
     id: engine_version
     attributes:
-      label: Engine Version
-      description: What version of @logicflow/engine are you running?
+      label: @logicflow/engine版本
       placeholder: ex. 0.0.9
     validations:
       required: false
   - type: dropdown
     id: browsers
     attributes:
-      label: What browsers are you seeing the problem on?
+      label: 浏览器&环境
       multiple: true
       options:
         - Firefox
         - Chrome
         - Safari
         - Microsoft Edge
-  - type: textarea
-    id: logs
-    attributes:
-      label: Relevant log output
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
-      render: shell
-  - type: checkboxes
-    id: terms
-    attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
-      options:
-        - label: I agree to follow this project's Code of Conduct
-          required: true
+        - NodeJS
